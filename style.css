@@ -38,3 +38,56 @@ header {
     }
 }
 
+main {
+    .chamada{
+        background-color: #000;
+        height: 37.5rem;
+        display: flex;
+        gap: 3.75rem;
+        padding: 0 12.5rem;
+
+        .texto-chamada {
+            width: 50%;
+            height: 42.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1 {
+                font-size: 4rem;
+                margin: 0 0 2rem;
+                span {
+                    color: #FFBB00
+                }
+            }
+
+            p{
+                font-size: 1.125rem;
+                color: #b2b2b2;
+                margin: 0 0 1.25rem;
+                line-height: 1.5;
+            }
+            button {
+                color: #000;
+                font-size: 1.25rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                width: fit-content;
+                padding: 1rem 2rem;
+                border-radius: .5rem;
+                background: linear-gradient(#FFBF00, #F2A50C);
+                 cursor: pointer;
+
+                 &:hover {
+                    background: linear-gradient(#FFB000, #F2A500);
+                 }
+            }
+        }
+
+        .imagem-chamada {
+            border: solid red;
+            width: 50%;
+            height: 42.5rem;
+        }
+    }
+}
